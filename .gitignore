@@ -1,0 +1,19 @@
+# =============================================================================
+# book-editor-team — .gitignore
+# =============================================================================
+
+# Conteúdo do livro fornecido pelo usuário (não versionar — pode ser confidencial)
+input/
+
+# Livro editado gerado pelos agentes (output por projeto — não versionar por padrão)
+output/
+
+# Claude Code — settings locais da máquina
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
